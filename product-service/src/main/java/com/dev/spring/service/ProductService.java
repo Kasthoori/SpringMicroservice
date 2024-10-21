@@ -20,7 +20,7 @@ public class ProductService {
 	private final ProductRepository productRepository;
 	
 	
-	//this is constructer injection
+	//this is constructor injection
 //	public ProductService(ProductRepository productRepository) {
 //		super();
 //		this.productRepository = productRepository;
@@ -40,5 +40,8 @@ public class ProductService {
 	}
 
 
+	//To create another end point to retrieve product and show 
+	// it needs another class product response like product request
+	
 
 }
