@@ -19,6 +19,14 @@ public class ProductService {
 	// To save products in database it need product repository class and inject it
 	private final ProductRepository productRepository;
 	
+	
+	//this is constructer injection
+//	public ProductService(ProductRepository productRepository) {
+//		super();
+//		this.productRepository = productRepository;
+//	}
+	
+	
 	public void createProduct(ProductRequest productRequest) {
 		
 		Product product = Product.builder()
@@ -28,7 +36,9 @@ public class ProductService {
 				.build();
 		
 		productRepository.save(product);
-		log.info("Product Successfully Saved");
+		log.info("Product {} Successfully Saved", product.getId());
 	}
+
+
 
 }
