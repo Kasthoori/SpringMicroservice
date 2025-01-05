@@ -24,4 +24,9 @@
     <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
+    <fullyQualifiedTypeName name="org.optaplanner.core.api.domain.entity.PlanningEntity"/>
+    <fullyQualifiedTypeName name="org.optaplanner.core.api.domain.variable.PlanningVariable"/>
+    <fullyQualifiedTypeName name="org.optaplanner.core.api.domain.solution.PlanningSolution"/>
+    <fullyQualifiedTypeName name="org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty"/>
+    <fullyQualifiedTypeName name="org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty"/>
 </qualifiedTypeNameHistroy>
